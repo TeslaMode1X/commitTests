@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func hello() {
-	fmt.Println("Hello, World!")
+func hello(msg string) {
+	fmt.Println("Hello,", msg)
 }
 
 func main() {
-	hello()
-	hello()
-	hello()
-	hello()
-	hello()
+	hello("Vanya")
+	hello("Andrey")
+	hello("Alexey")
+	hello("Maxim")
+	hello("Vasya")
 }
