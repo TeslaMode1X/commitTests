@@ -6,10 +6,10 @@ func hello(msg string) {
 	fmt.Println("Hello,", msg)
 }
 
-func infinityLoop() {
+func loopThatMakesSense() {
 	i := 0
-	for {
-		i++
+	for i++; i < 5; i++ {
+		fmt.Println(i)
 	}
 }
 
@@ -21,5 +21,5 @@ func main() {
 	hello("Vasya")
 
 	// for fun
-	infinityLoop()
+	loopThatMakesSense()
 }
