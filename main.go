@@ -7,5 +7,9 @@ func hello() {
 }
 
 func main() {
-
+	hello()
+	hello()
+	hello()
+	hello()
+	hello()
 }
